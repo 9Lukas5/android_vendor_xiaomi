@@ -673,6 +673,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/vehicle_dacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_dacia_RTP.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/vehicle_moto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_moto_RTP.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/firmware/vehicle_plane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_plane_RTP.bin \
+    vendor/xiaomi/gauguin/proprietary/vendor/lib/camera/com.qti.sensormodule.sunny_imx682.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.sunny_imx682.bin \
+    vendor/xiaomi/gauguin/proprietary/vendor/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/gauguin/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/gauguin/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -920,6 +922,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.sensor.gauguin_s5khm2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.gauguin_s5khm2.so \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_s5khm2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_s5khm2.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_hi259.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_hi259.bin \
+    vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_imx682.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_imx682.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_ov02b1b.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_ov16a1q.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_ov8856.bin \
@@ -927,6 +930,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.tuned.gauguin_ofilm_s5khm2_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.gauguin_ofilm_s5khm2_wide.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.tuned.gauguin_sunny_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.gauguin_sunny_hi259_macro.bin \
+    vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov02b1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.gauguin_sunny_ov02b1b_depth.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov16a1q_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.gauguin_sunny_ov16a1q_front.bin \
     vendor/xiaomi/gauguin/proprietary/vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov8856_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.gauguin_sunny_ov8856_ultra.bin \
